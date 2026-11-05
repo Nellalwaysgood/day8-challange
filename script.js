@@ -25,4 +25,10 @@ console.log("\n ----- find() -----");
 let findScore = students.find((student) => student.score >= 90);
 console.log(findScore);
 
-console.log("DONE")
+console.log("\n ----- HASIL PENGOLAHAN -----");
+console.log("\n ----- LIST NAMA SISWA -----");
+console.log(studentName);
+console.log("\n ----- FILTER NAMA BERDASARKAN NILAI  -----");
+console.log(filterScore);
+console.log("\n ----- MENCARI NAMA BERDASARKAN NILAI -----");
+console.log(findScore);
